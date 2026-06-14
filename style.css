@@ -1,0 +1,81 @@
+/* page background */
+body{
+background:#f5f5f5;
+font-family: Arial, sans-serif;
+}
+
+
+/* product card */
+.card{
+
+border-radius:10px;
+
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+
+transition:0.3s;
+
+padding:15px;
+
+text-align:center;
+
+height:100%;
+
+}
+
+
+/* hover effect */
+.card:hover{
+
+transform:translateY(-5px);
+
+}
+
+
+/* product image */
+.card img{
+
+height:180px;
+
+width:100%;
+
+object-fit:contain;
+
+margin-bottom:10px;
+
+}
+
+
+/* product title */
+.card h6{
+
+font-size:14px;
+
+min-height:40px;
+
+}
+
+
+/* price */
+.card p{
+
+margin:3px 0;
+
+}
+
+
+/* button */
+.card button{
+
+width:100%;
+
+margin-top:8px;
+
+}
+
+
+/* layout spacing */
+#productContainer{
+
+margin-top:20px;
+
+}
